@@ -1,0 +1,273 @@
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+header{
+    width: 1400px;
+}
+
+
+.header-list-text{
+   
+    color: black;
+   font-size: 30px;
+   padding-left: 16px;
+padding-right: 12px;
+text-size-adjust: 100%;
+    
+}
+
+.header-list-text:hover{
+    color: purple;
+}
+.contayner {
+    display: flex;
+    border: 1px solid #ECECEC;
+    width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header-list {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 50px;
+   margin-left: 92px;
+  
+
+}
+
+.header-text{
+    color: white;
+}
+
+
+.header-text2{
+    color: rgb(154, 16, 16);
+}
+
+.contayner {
+  
+   
+border: 0 3 0px solid #e6e4e4;
+    width: 1500px;
+    
+    
+}
+
+.header-logo-img{
+   width: 100px;
+   height: 40px;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: -1px;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid purple;
+    border-radius: 40px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border:  2px solid purple;
+    border-left: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.search-button:hover{
+    background-color: rgb(68, 10, 96) 50%;
+}
+
+
+.header-contact{
+    font-size: 25px;
+}
+
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+
+  .modal {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    min-width: 700px;
+    min-height: 300px;
+    padding: 15px;
+    background-color: rgba(130, 92, 128, 0.98);
+    transform: translate(-50%, -100%) scale(1);
+    transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
+  } 
+
+
+  .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+   
+  }
+ 
+ .no-scroll {
+    overflow: hidden;
+  }
+  .modal-clouse {
+    color: black;
+    background-color: #ffffff;
+    top: 8px;
+    right: 8px;
+     position: absolute;
+     width: 30px;
+     height: 25px;
+     border-radius: 66px;
+     background: none;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     display: flex;
+     justify-content: center;
+     opacity: 20px;
+     fill: #000000;
+     transition-property: color;
+     opacity: calc(1);
+     translate: scale(x,y);
+     transition-duration: 250ms;
+     transform: scale(1);
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+      
+ 
+
+ }
+
+ .backdrop  {
+
+    position: fixed;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition:
+      opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms,
+      visibility 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
+ }
+
+
+.backdrop.is-hidden {
+  
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    
+
+}
+
+.header-contact:hover{
+    color:purple;
+}
+
+.modal-clouse:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 247, 247);
+}
+
+
+.text-modal{
+    margin: 70px;
+    font-size: 30px;
+    color:  rgb(255, 255, 255);
+}
+
+
+.button2{
+   
+    top: 20px;
+    margin: 70px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(182, 235, 129);
+    border-color: rgb(182, 235, 129) ;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+
+}
+
+.modal-in3{
+    
+    margin: 70px;
+    
+  font-size: 15px;
+    color: rgb(191, 191, 191);
+    background-color:white;
+    border-color:rgb(230, 229, 229);
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+}
+.button2:hover{
+    color: rgb(255, 255, 255);
+    background-color: 50% rgb(159, 203, 114);
+
+}
+
+.header-list-choice{
+ height: 40px;
+    color: purple;
+    font-size: 20px;
+    height: 30px;
+  display: flex;
+    gap: 20px;
+}
+
+.contayner2{
+   margin-top: 10px;
+
+    width: 1450px;
+
+    margin: 0 auto;
+
+
+}
+
+.header-list-choice1:hover{
+    background-color: purple;
+    color: white;
+
+}
+
